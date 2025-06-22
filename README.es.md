@@ -46,7 +46,7 @@ Este proyecto está actualmente en desarrollo activo. El objetivo es completar t
 
 ### v1.0: API Principal y Funcionalidad
 * **Fase 1: Capa de Datos y Persistencia**
-    * [ ] Instalar y configurar Entity Framework Core con SQLite.
+    * [X] Instalar y configurar Entity Framework Core con SQLite.
     * [ ] Definir los Modelos de Datos (`Libro`, `Autor`, `Usuario`, `Prestamo`).
     * [ ] Crear la base de datos inicial mediante Migraciones de EF Core.
 * **Fase 2: Lógica de Negocio y Endpoints**
