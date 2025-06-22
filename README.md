@@ -47,7 +47,7 @@ This project is currently under active development. The goal is to complete all 
 ### v1.0: Core API & Functionality
 * **Phase 1: Data Layer & Persistence**
     * [X] Install and configure Entity Framework Core with SQLite.
-    * [ ] Define Data Models (`Book`, `Author`, `User`, `Loan`).
+    * [X] Define Data Models (`Book`, `Author`, `User`, `Loan`).
     * [ ] Create initial database via EF Core Migrations.
 * **Phase 2: Business Logic & API Endpoints**
     * [ ] Implement full CRUD for `Books` and `Authors`.
