@@ -48,7 +48,7 @@ Este proyecto está actualmente en desarrollo activo. El objetivo es completar t
 * **Fase 1: Capa de Datos y Persistencia**
     * [X] Instalar y configurar Entity Framework Core con SQLite.
     * [X] Definir los Modelos de Datos (`Libro`, `Autor`, `Usuario`, `Prestamo`).
-    * [ ] Crear la base de datos inicial mediante Migraciones de EF Core.
+    * [X] Crear la base de datos inicial mediante Migraciones de EF Core.
 * **Fase 2: Lógica de Negocio y Endpoints**
     * [ ] Implementar el CRUD completo para `Libros` y `Autores`.
     * [ ] Implementar la lógica y endpoints para `Préstamos`.
