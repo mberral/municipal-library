@@ -50,7 +50,7 @@ This project is currently under active development. The goal is to complete all 
     * [X] Define Data Models (`Book`, `Author`, `User`, `Loan`).
     * [X] Create initial database via EF Core Migrations.
 * **Phase 2: Business Logic & API Endpoints**
-    * [ ] Implement full CRUD for `Books` and `Authors`.
+    * [X] Implement full CRUD for `Books` and `Authors`.
     * [ ] Implement core logic and endpoints for `Loans`.
     * [ ] Integrate the DTO pattern for all API communications.
 * **Phase 3: Quality & Security**

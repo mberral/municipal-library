@@ -1,14 +1,12 @@
-using System.ComponentModel.DataAnnotations;
+using MunicipalLibrary.Api.Dtos.Author;
 
-namespace MunicipalLibrary.Api.Models;
+namespace MunicipalLibrary.Api.Dtos.Book;
 
 /// <summary>
-/// Represents a book entity in the library's catalog.
+/// Provides a detailed view of a single book, including all its properties and related authors.
 /// </summary>
-public class Book
+public class BookDetailsDto
 {
-    #region Main Attributes
-
     /// <summary>
     /// The unique identifier for the book.
     /// </summary>
@@ -25,43 +23,37 @@ public class Book
     public string Publisher { get; set; } = string.Empty;
 
     /// <summary>
-    /// The year the book was published.
+    /// The year the book was originally published.
     /// </summary>
     public int Year { get; set; }
 
     /// <summary>
-    /// The International Standard Book Number.
+    /// The International Standard Book Number (ISBN).
     /// </summary>
     public string Isbn { get; set; } = string.Empty;
 
     /// <summary>
-    /// A short description or synopsis of the book. Can be null.
+    /// A short description or synopsis of the book.
     /// </summary>
     public string? Description { get; set; }
 
     /// <summary>
-    /// A list of genres associated with the book. Can be null.
+    /// A comma-separated string of genres associated with the book.
     /// </summary>
     public string? Genres { get; set; }
 
     /// <summary>
-    /// The total number of pages in the book. Can be null.
+    /// The total number of pages in the book.
     /// </summary>
     public int? NumberOfPages { get; set; }
 
     /// <summary>
-    /// The language the book is written in. Can be null.
+    /// The language the book is written in.
     /// </summary>
     public string? Language { get; set; }
 
-    #endregion
-
-    #region Navigation Properties
-
     /// <summary>
-    /// The collection of authors who wrote this book.
+    /// A list of DTOs representing the authors of the book.
     /// </summary>
-    public ICollection<Author> Authors { get; set; } = [];
-
-    #endregion
+    public List<AuthorDto> Authors { get; set; } = [];
 }

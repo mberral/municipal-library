@@ -50,7 +50,7 @@ Este proyecto está actualmente en desarrollo activo. El objetivo es completar t
     * [X] Definir los Modelos de Datos (`Libro`, `Autor`, `Usuario`, `Prestamo`).
     * [X] Crear la base de datos inicial mediante Migraciones de EF Core.
 * **Fase 2: Lógica de Negocio y Endpoints**
-    * [ ] Implementar el CRUD completo para `Libros` y `Autores`.
+    * [X] Implementar el CRUD completo para `Libros` y `Autores`.
     * [ ] Implementar la lógica y endpoints para `Préstamos`.
     * [ ] Integrar el patrón DTO para todas las comunicaciones de la API.
 * **Fase 3: Calidad y Seguridad**
